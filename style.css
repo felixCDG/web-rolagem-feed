@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul, ol, li {
+    list-style: none;
+}
+
+html, body{
+    scroll-behavior: smooth;
+}
+
+header{
+    position:fixed;
+    width: 100vw;
+    background-color: black;
+    padding: 16px;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul a {
+    color: aliceblue;
+    transition: 1s;
+}
+
+header nav ul a:hover{
+    border-bottom: 3px solid blue;
+    
+}
+
+.grupo{
+    height: 100dvh;
+
+}
+#Vermelho{
+    background-color: rgb(255, 0, 0);
+}
+#Verde{
+    background-color: chartreuse;
+}
+#Azul{
+    background-color: blue;
+}
+#Amarelo{
+    background-color: gold;
+}
+#Roxo{
+   background-color: rgb(132, 0, 255);
+}
