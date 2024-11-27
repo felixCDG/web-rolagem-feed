@@ -12,46 +12,75 @@ ul, ol, li {
 
 html, body{
     scroll-behavior: smooth;
+    font-family: "Lovers Quarrel", cursive;
 }
 
 header{
-    position:fixed;
     width: 100vw;
-    background-color: black;
+    background-color: #E9D5B9;
     padding: 16px;
+    height: 100px;
+    
 }
 
 header nav ul{
+    ;
     display: flex;
     justify-content: space-between;
 }
 
 header nav ul a {
-    color: aliceblue;
+    color: rgb(0, 0, 0);
     transition: 1s;
+    margin-left: 100px;
+    margin-right: 200px;
+    font-size: 35px;
 }
 
 header nav ul a:hover{
-    border-bottom: 3px solid blue;
+    border-bottom: 3px solid rgb(255, 149, 0);
     
 }
 
 .grupo{
-    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
 
 }
-#Vermelho{
-    background-color: rgb(255, 0, 0);
+#introducao{
+    background-color: #C5B092;
+    display: flex;
+    justify-content: center;
+
+ 
 }
-#Verde{
-    background-color: chartreuse;
+.inicio{
+    height: 50px;
+    margin-top: 150px;
+    margin-right:10px ;
+    
+
+}
+#Oquee{
+    display: flex;
+    justify-content:center ;
+    background-color: #965e10;
+}
+.oquee{
+    width: 1700px;
+    margin-top: 90px;
+    height: 200px;
+}
+.globo{
+    margin-top: 850px;
 }
 #Azul{
-    background-color: blue;
+    background-color: #555350;
 }
 #Amarelo{
-    background-color: gold;
+    background-color: #e7d7c0;
 }
-#Roxo{
-   background-color: rgb(132, 0, 255);
+#Preto{
+   background-color: #766041;
 }
