@@ -24,7 +24,7 @@ header{
 }
 
 header nav ul{
-    ;
+    
     display: flex;
     justify-content: space-between;
 }
@@ -65,7 +65,8 @@ header nav ul a:hover{
 #Oquee{
     display: flex;
     justify-content:center ;
-    background-color: #965e10;
+    background-color: #C5B092;
+    
 }
 .oquee{
     width: 1700px;
@@ -75,12 +76,33 @@ header nav ul a:hover{
 .globo{
     margin-top: 850px;
 }
-#Azul{
-    background-color: #555350;
+#Origem{
+    background-color: #C5B092;
+   
 }
+.origem{
+
+    margin-top: -150px;
+    margin-right: 400px;
+
+}
+
 #Amarelo{
-    background-color: #e7d7c0;
+    background-color: #C5B092;
 }
+.periodo{
+    margin-top: 150px;
+    margin-left: 200px;
+}
+
 #Preto{
-   background-color: #766041;
+   background-color: #C5B092;
+}
+.importancia{
+    
+    margin-right: 100px;
+}
+.imagens{
+   
+    margin-left: 200px;
 }
