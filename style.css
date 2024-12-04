@@ -110,30 +110,23 @@ header nav ul a:hover{
 header{
     display: none;
 }
-header nav ul{
-    display: flex;
-    justify-content: space-between;
-}
 
-    .grupo{
-        width: 100vw;
-        height: 100vh;
-    }
-    #introducao{
-        
-        display: flex;
-        justify-content: center;
     }
     .inicio{
-        margin-left: 100px;
-        width: 100%;
+        width: 10%;
     }
     .oquee{
-
-        margin-top: 90px;
-        margin-left: 1400px;
+        width: 10%;
         }
 
+    .globo{
+    display: none;
+    }
 
+    .origem{
+        display: flex;
+        width: 100%;
+        margin-left: 1300px;
+    }
 }
 
