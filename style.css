@@ -106,21 +106,33 @@ header nav ul a:hover{
    
     margin-left: 200px;
 }
-@media (max-width:667px){
-    header div{
-        display: none;
+@media (max-width:640px){
+header{
+    display: none;
+}
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+    .grupo{
+        width: 100vw;
+        height: 100vh;
     }
     #introducao{
-        background-color: #C5B092;
+        
         display: flex;
         justify-content: center;
     }
     .inicio{
+        margin-left: 100px;
         width: 100%;
     }
+    .oquee{
 
-
-
+        margin-top: 90px;
+        margin-left: 1400px;
+        }
 
 
 }
