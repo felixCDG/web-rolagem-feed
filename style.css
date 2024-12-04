@@ -106,3 +106,22 @@ header nav ul a:hover{
    
     margin-left: 200px;
 }
+@media (max-width:667px){
+    header div{
+        display: none;
+    }
+    #introducao{
+        background-color: #C5B092;
+        display: flex;
+        justify-content: center;
+    }
+    .inicio{
+        width: 100%;
+    }
+
+
+
+
+
+}
+
